@@ -1,1 +1,3 @@
-# COURSE-Web-Development
+# Vrije Universiteit Amsterdam
+
+## Web-Development Course
