@@ -1,7 +1,8 @@
-# web_technologies_assignment_01
- vrije universiteit web technlogies
+# Web Technologies Assignment 01
  
- [You can reach the website with this link](https://kucukbahadir.github.io/assignment_01/)
+ Vrije Universiteit Amsterdam
+ 
+ [You can reach the website with this link](https://kucukbahadir.github.io/COURSE-Web-Development/Assignment_01)
  
  
  
