@@ -1,4 +1,4 @@
-# Web Technologies Assignment_02
+# Web Technologies Assignment 02
 Vrije Universiteit Amsterdam
 
  
