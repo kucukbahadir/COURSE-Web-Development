@@ -2,7 +2,7 @@
 Vrije Universiteit Amsterdam
 
  
-[You can reach the dynamic table with this link](https://kucukbahadir.github.io/COURSE-Web-Development/assignment_02/)
+[You can reach the dynamic table with this link](https://web-development-assignment-02.netlify.app/)
 
 
 # A2: Assignment "Scripting"
