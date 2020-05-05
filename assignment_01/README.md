@@ -2,7 +2,7 @@
  
  Vrije Universiteit Amsterdam
  
- [You can reach the website with this link](https://kucukbahadir.github.io/COURSE-Web-Development/assignment_01)
+ [You can reach the website with this link](https://assignment-01.netlify.app/)
  
  
  
