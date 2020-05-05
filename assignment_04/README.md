@@ -1,6 +1,6 @@
 # Vrije Universiteit Amsterdam
-
-https://web-development-assignment-04.netlify.app/
+ 
+ [You can reach the website with this link](https://web-development-assignment-04.netlify.app//)
 
 # A4: Assignment "Synthesis & Evaluation"
 
