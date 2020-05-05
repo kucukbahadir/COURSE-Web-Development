@@ -1,0 +1,152 @@
+body {
+  background: url("https://cdn1.imggmi.com/uploads/2020/1/9/611c2d98bbcf751c2181535eacd708d4-full.png") top right no-repeat;
+  background-color: white;
+  filter: grayscale(100%);
+  ~webkit-filter: grayscale(100%);
+  background-size: 400px 400px;
+  color: black;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+h1,h2,figcaption {
+  text-align: center;
+}
+
+caption,h3 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-rendering: geometricPrecision;
+  text-align: center;
+}
+
+#logo {
+  height:400px;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+#logounderline {
+  height:100px;
+  width:400px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display:block;
+}
+
+table  {
+  border-spacing: 30px;
+  border-style:solid;
+  border-color:black;
+  caption-side: top;
+  border-width: thick;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-indent: 50px;
+}
+
+#productstable {
+  page-break-after: always;
+}
+
+div {
+  text-indent: 5px;
+  font-size: 18px;
+  font-variant:normal;
+}
+
+a>img {
+  filter: grayscale(100%);
+  ~webkit-filter: grayscale(100%);
+}
+
+img {
+  filter: grayscale(100%);
+  ~webkit-filter: grayscale(100%);
+}
+
+.moreproductsimg {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+
+#accessories {
+  font-size: 30px;
+  text-decoration: underline;
+  font-style: normal;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.bestsellerimage {
+  height: 100px;
+  width: 100px;
+}
+
+#about {
+  page-break-before: always;
+}
+
+td>img {
+  float: right;
+}
+
+p>img {
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+}
+
+th {
+    text-decoration: underline;
+  }
+
+
+/*Hide hyperlinks*/
+
+#myform {
+  display: none;
+}
+
+#reviews {
+  display: none;
+}
+
+.arrow {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#top {
+  display: none;
+}
+
+.clickhere {
+  display: none;
+}
+
+.youtube {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}

@@ -1,0 +1,499 @@
+body {
+  background-image: url("https://cdn1.imggmi.com/uploads/2020/1/9/611c2d98bbcf751c2181535eacd708d4-full.png");
+  background-position: top right;
+  background-repeat:no-repeat;
+  background-color: white;
+  background-size: 400px 400px;
+  color: black;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+/*top-left background image*/
+#pagetop {
+  background: url("https://cdn1.imggmi.com/uploads/2020/1/10/f93ed953f9c74db70c3ede6b5c445a2f-full.png") top left repeat-y;
+}
+
+h1,h2, figcaption {
+  text-align: center;
+}
+
+caption,h3 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-rendering: geometricPrecision;
+  text-align: center;
+}
+
+h3 {
+  background-color: #333;
+  color: white;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  text-indent: 150px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#logo {
+  height:400px;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+#logounderline {
+  height:100px;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display:block;
+}
+
+p {
+  font-size: 18px;
+  font-variant:normal;
+}
+
+
+/* Best Sellers - Products + Accessories tables */
+table  {
+    border-spacing: 50px;
+    border-style:solid;
+    border-color:black;
+    caption-side: top;
+    border-width: thick;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 80px;
+}
+
+th {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.bestsellerimage {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bestsellerimage:hover {
+  transform: scale(3.5);
+}
+
+#accessoriestable {
+  text-indent: 70px;
+}
+
+form {
+  background-color: #333;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resetButton {
+	box-shadow: 0px 14px 23px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:34px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 32px;
+	text-decoration:none;
+	text-shadow:0px 5px 32px #3d768a;
+}
+#resetButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+#resetButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Top Rated Products List */
+ol {
+  list-style: decimal inside;
+}
+
+
+/* More Products Section */
+.moreproductslist {
+  list-style-position: inside;
+  list-style-image: url("https://cdn1.imggmi.com/uploads/2020/1/10/24e8c6f98a03f966ecd98a2157165a26-full.png");
+}
+
+li {
+    caption-side: bottom;
+}
+
+.moreproductsimage {
+  width: 100px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.moreproductsimage:hover {
+  transform: scale(2);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.clickhere {
+  color: blue;
+  font-variant: small-caps;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+#arrow {
+  height:20px;
+  width: 20px;
+  float: right;
+}
+
+
+/* Accessories Section */
+.accessoriesimages {
+  height: 100px;
+  width: 100px;
+}
+
+td>img {
+  float: right;
+}
+
+.accessoriesimages:hover {
+  transform: scale(2);
+}
+
+/*More Accessories Section*/
+#moreaccessories {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #333;
+  color: white;
+  font-size: 40px;
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+}
+
+/* Links */
+a:link {
+  color: deepskyblue;
+}
+
+a:visited {
+  color: sandybrown;
+}
+
+a:active {
+  color: gray;
+}
+
+a {
+  text-transform: inherit;
+  text-align: right;
+  float: right;
+}
+
+/* Reviews Section */
+.review {
+    background: url("https://cdn1.imggmi.com/uploads/2020/1/10/f93ed953f9c74db70c3ede6b5c445a2f-full.png") top left repeat-y;
+}
+
+#iPhone11 {
+  margin-top: 100px;
+}
+
+#iPhoneX {
+  margin-top: 100px;
+}
+
+#GalaxyS10 {
+    margin-top: 100px;
+}
+
+.youtube {
+  text-align: center;
+  display: block;
+  margin-bottom: 150px;
+}
+
+div>h3 {
+    font-size: 30px;
+}
+
+#reviews {
+  background-color: #333;
+  color: white;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+/* About Us Section */
+#about {
+  background-color: #333;
+  color: white;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+#rwd {
+  display: none;
+}
+
+#contact {
+  float: left;
+}
+
+#top {
+  float: left;
+}
+
+/* Responsive Web Design*/
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+    display: block;
+  }
+
+  .bestsellerimage {
+    height: 20px;
+    width: 20px;
+    text-align: left;
+        width: 100%;
+  }
+
+  .navbar {
+    text-align: left;
+        width: 100%;
+  }
+
+  h1,h2,h3{
+        text-align:center;
+            width: 100%;
+  }
+
+  table {
+    max-width: 100%;
+    border-collapse: collapse;
+    display: block;
+  }
+
+  thead, tbody {
+    position: relative;
+    text-align: left;
+		display: block;
+    padding-right: 100px;
+	}
+
+
+  thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td {
+  /* Behave  like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-right: 100%;
+  font-size: 10px;
+}
+
+tr>th {
+  text-align: left;
+  padding-right: 10px;
+}
+
+caption {
+  font-size: 10px;
+  position: relative;
+  padding-left: 100%;
+}
+
+.accessoriesimages {
+  height: 40px;;
+  width: 40px;
+}
+
+.bestsellerimage {
+  height: 40px;
+  width: 40px;
+}
+
+.accessoriesimages {
+  height: 30px;
+  width: 30px;
+}
+
+td:before {
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 3px;
+  left: 3px;
+  width: 20%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+  table>caption {
+    font-size: 20px;
+        width: 100%;
+  }
+
+  table {
+    text-align: left;
+  }
+
+  table>image {
+    width:20%;
+    height:20%;
+  }
+
+  caption {
+    font-size: 10px;
+  }
+
+
+iframe {
+    height: 80%;
+    width: 80%;
+  }
+
+
+  #pagetop {
+    background-size: 80px 70px;
+    font-size: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #logounderline {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 80%;
+    width: 80%;
+  }
+#screenversion {
+  display: none;
+  }
+  #rwd {
+    display: block;
+    text-align: center;
+  }
+
+}

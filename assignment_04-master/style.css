@@ -1,0 +1,24 @@
+body {
+  font-size: 14px;
+  margin: 10px 35px;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 85%;
+  margin: auto;
+}
+
+th, td {
+  border: 3px solid indianred;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  padding: 4px 4px !important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phones API</title>
+</head>
+<body>
+<div>
+    <h3>RESTful Web API</h3>
+    <p>Based on simple REST principles, the Web API endpoints return JSON metadata about phone brands, models,
+        operating systems, images and screen sizes.
+    </p>
+    <p>
+        The base address of Web API is http://localhost:3000/phones
+        The API provides a set of endpoints, each with its own unique path.
+    </p>
+</div>
+<div>
+    <h3>Requests</h3>
+    <p>The Web API is based on REST principles. Data resources are accessed via standard HTTP
+        requests in UTF-8 format to an API endpoint. Where possible, Web API uses appropriate HTTP verbs for each action:</p>
+</div>
+<div>
+    <pre>
+        <h3><pre>-------Method---------------------Action-----------------------------------Example--------------</pre></h3>
+
+
+                        Retreive resources (either all              Get all data: http://localhost:3000/phones
+        GET             data set or by ID/brand/model/OS)           Get item by ID: http://localhost:3000/phones/1
+                                                                    Get item by brand: http://localhost:3000/phones/brands/nameOfBrand
+                                                                    Get item by model: http://localhost:3000/phones/models/nameOfModel
+                                                                    Get item by OS: http://localhost:3000/phones/OS/osName
+------------------------------------------------------------------------------------------------------------------------
+                                                                    Create new resource:
+                                                                    http://localhost:3000/phones
+        POST            Create new resources                        The request body should include the following:
+                                                                    brand, model, os, image and screensize.
+
+------------------------------------------------------------------------------------------------------------------------
+                                                                    Update an existing resource:
+                                                                    http://localhost:3000/phones
+        PUT             Update existing resources by ID             The request body should include the following:
+                                                                    brand, model, os, image, screensize and ID
+                                                                    of the product to be updated.
+------------------------------------------------------------------------------------------------------------------------
+
+        DELETE          Delete resources                            Delete an existing resource by ID:
+                                                                    http://localhost:3000/phones/1
+                                                                    (Removes item with ID = 1)
+
+------------------------------------------------------------------------------------------------------------------------
+</pre>
+</div>
+<div>
+    <h3>Responses</h3>
+    <p>
+        Web API returns all response data as a JSON object.
+    </p>
+</div>
+<div>
+    <h3>Response Status Codes</h3>
+    <pre>
+        <h3><pre>--------Status code----------------------Description-----------------------------------</pre></h3>
+
+                                OK - The request has succeeded.
+            200                 The client can read the result of the request in the
+                                body and the headers of the response.
+                                (Successfull GET requests)
+
+
+            201                 Created - The request has been fulfilled and resulted
+                                in a new resource being created.
+                                (Successfull POST request)
+
+
+            204                 No Content - The request has succeeded but returns no message body.
+                                (Successfull PUT or DELETE request)
+
+
+            400                 Bad Request - The request could not be understood by the server
+                                due to malformed syntax.
+
+
+
+            404                 Not Found - The requested resource could not be found.
+                                This error can be due to a temporary or permanent condition.
+
+
+---------------------------------------------------------------------------------------------------------
+    </pre>
+</div>
+<div>
+    <h3>Dependencies</h3>
+    <pre>
+        - Express
+        - Sqlite
+        - Body-parser
+    </pre>
+</div>
+</body>
+</html>
