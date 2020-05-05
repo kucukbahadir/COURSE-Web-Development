@@ -2,7 +2,7 @@
  
  Vrije Universiteit Amsterdam
  
- [You can reach the website with this link](https://assignment-01.netlify.app/)
+ [You can reach the website with this link](https://web-development-assignment-01.netlify.app/)
  
  
  
