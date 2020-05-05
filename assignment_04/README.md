@@ -1,5 +1,7 @@
 # Vrije Universiteit Amsterdam
 
+https://web-development-assignment-04.netlify.app/
+
 # A4: Assignment "Synthesis & Evaluation"
 
 **Due** 29 Jan by 22:00 **Points** 100 **Submitting** a file upload
